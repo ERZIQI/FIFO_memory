@@ -97,9 +97,7 @@ Ce module génère les signaux de statut de la FIFO :
 
 ---
 
-## **Exemple de code Verilog**
-
-### **Module principal : `fifo_mem`**
+### **code Verilog de module principal : fifo_mem**
 ```verilog
 module fifo_mem( 
   input wr, rd, clk, rst_n,  
