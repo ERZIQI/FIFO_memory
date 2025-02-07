@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_status.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_status
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/read_pointer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_pointer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/write_pointer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_pointer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_mem_tb

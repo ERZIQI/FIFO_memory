@@ -1,0 +1,29 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Program_Files/VIVADO/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fifo_mem_tb_behav xil_defaultlib.fifo_mem_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem.v" Line 3. Module fifo_mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/write_pointer.v" Line 3. Module write_pointer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/read_pointer.v" Line 3. Module read_pointer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_array.v" Line 3. Module memory_array doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_status.v" Line 3. Module memory_status doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem.v" Line 3. Module fifo_mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/write_pointer.v" Line 3. Module write_pointer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/read_pointer.v" Line 3. Module read_pointer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_array.v" Line 3. Module memory_array doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Work_Space/SOC/FIFO_memory/MODULES/memory_status.v" Line 3. Module memory_status doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.write_pointer
+Compiling module xil_defaultlib.read_pointer
+Compiling module xil_defaultlib.memory_array
+Compiling module xil_defaultlib.memory_status
+Compiling module xil_defaultlib.fifo_mem
+Compiling module xil_defaultlib.fifo_mem_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fifo_mem_tb_behav

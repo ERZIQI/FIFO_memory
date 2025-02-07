@@ -1,0 +1,59 @@
+Time resolution is 1 ps
+----------------------------------------------
+----------- SIMULATION RESULT ----------------
+----------------------------------------------
+TIME =                  100, wr = 0, rd = 0, data_in = 00, data_out = xx
+TIME =                  150, wr = 1, rd = 0, data_in = 01, data_out = 01
+TIME =                  170, wr = 0, rd = 0, data_in = 01, data_out = 01
+TIME =                  220, wr = 1, rd = 0, data_in = 02, data_out = 01
+TIME =                  240, wr = 0, rd = 0, data_in = 02, data_out = 01
+TIME =                  290, wr = 1, rd = 0, data_in = 03, data_out = 01
+TIME =                  310, wr = 0, rd = 0, data_in = 03, data_out = 01
+TIME =                  360, wr = 1, rd = 0, data_in = 04, data_out = 01
+TIME =                  380, wr = 0, rd = 0, data_in = 04, data_out = 01
+TIME =                  430, wr = 1, rd = 0, data_in = 05, data_out = 01
+TIME =                  450, wr = 0, rd = 0, data_in = 05, data_out = 01
+TIME =                  500, wr = 1, rd = 0, data_in = 06, data_out = 01
+TIME =                  520, wr = 0, rd = 0, data_in = 06, data_out = 01
+TIME =                  570, wr = 1, rd = 0, data_in = 07, data_out = 01
+TIME =                  590, wr = 0, rd = 0, data_in = 07, data_out = 01
+TIME =                  640, wr = 1, rd = 0, data_in = 08, data_out = 01
+TIME =                  660, wr = 0, rd = 0, data_in = 08, data_out = 01
+TIME =                  710, wr = 1, rd = 0, data_in = 09, data_out = 01
+TIME =                  730, wr = 0, rd = 0, data_in = 09, data_out = 01
+TIME =                  780, wr = 1, rd = 0, data_in = 0a, data_out = 01
+TIME =                  800, wr = 0, rd = 0, data_in = 0a, data_out = 01
+TIME =                  850, wr = 1, rd = 0, data_in = 0b, data_out = 01
+TIME =                  870, wr = 0, rd = 0, data_in = 0b, data_out = 01
+TIME =                  920, wr = 1, rd = 0, data_in = 0c, data_out = 01
+TIME =                  940, wr = 0, rd = 0, data_in = 0c, data_out = 01
+TIME =                  990, wr = 1, rd = 0, data_in = 0d, data_out = 01
+TIME =                 1010, wr = 0, rd = 0, data_in = 0d, data_out = 01
+TIME =                 1060, wr = 1, rd = 0, data_in = 0e, data_out = 01
+TIME =                 1080, wr = 0, rd = 0, data_in = 0e, data_out = 01
+Simulation finished
+$finish called at time : 11 ns : File "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem_tb.v" Line 84
+TIME =                 1130, wr = 1, rd = 0, data_in = 0f, data_out = 01
+TIME =                 1150, wr = 0, rd = 0, data_in = 0f, data_out = 01
+TIME =                 1200, wr = 1, rd = 0, data_in = 10, data_out = 01
+TIME =                 1220, wr = 0, rd = 0, data_in = 10, data_out = 01
+TIME =                 1270, wr = 1, rd = 0, data_in = 11, data_out = 01
+TIME =                 1290, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1320, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1340, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1360, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1380, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1400, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1420, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1440, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1460, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1480, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1500, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1520, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1540, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1560, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1580, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1600, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =                 1620, wr = 0, rd = 0, data_in = 11, data_out = 01
+TIME =                 1640, wr = 0, rd = 1, data_in = 11, data_out = 01
+TIME =         

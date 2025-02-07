@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/vivado_project/FIFO_memory/FIFO_memory.sim/sim_1/impl/timing/xsim/fifo_mem_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD2
+INFO: [VRFC 10-311] analyzing module fifo_mem
+INFO: [VRFC 10-311] analyzing module memory_array
+INFO: [VRFC 10-311] analyzing module memory_status
+INFO: [VRFC 10-311] analyzing module read_pointer
+INFO: [VRFC 10-311] analyzing module write_pointer
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem_tb.v" into library xil_defaultlib
+ERROR: [VRFC 10-8386] root scope declaration is not allowed in Verilog 95/2K mode [D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem_tb.v:3]
+INFO: [VRFC 10-311] analyzing module fifo_mem_tb
+ERROR: [VRFC 10-8530] module 'fifo_mem_tb' is ignored due to previous errors [D:/Work_Space/SOC/FIFO_memory/MODULES/fifo_mem_tb.v:5]

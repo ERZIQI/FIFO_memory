@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../MODULES/fifo_mem.v" \
+"../../../../../../MODULES/memory_array.v" \
+"../../../../../../MODULES/memory_status.v" \
+"../../../../../../MODULES/read_pointer.v" \
+"../../../../../../MODULES/write_pointer.v" \
+"../../../../../../MODULES/fifo_mem_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
