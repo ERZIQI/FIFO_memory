@@ -11,9 +11,9 @@ module memory_array (
 	
 	always @ (posedge(clk)) begin 
 		if (fifo_we)
-			data_array[wptr[3:0]-4'b1] <= data_in; // ecriture dans la case memoire d'addresse wptr
+			data_array[wptr[3:0]] <= data_in; // ecriture dans la case memoire d'addresse wptr
 	end
 	
-	assign data_out = data_array[rptr[3:0]-4'b1];
+	assign data_out = data_array[rptr[3:0]];
 
 endmodule

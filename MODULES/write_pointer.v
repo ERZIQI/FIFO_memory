@@ -3,7 +3,7 @@
 module write_pointer (
 	input 	clk, rst_n, wr, fifo_full_wire,	// wr : signal demmande d'ecriture / fifo_full : etat de la FIFO 
 	output 	reg [4:0] wptr,				// registre qui contient de pointeur d'criture
-	output	fifo_we 					// signal de validation d'ecriture
+	output	wire fifo_we 					// signal de validation d'ecriture
 );
 	
 	assign fifo_we = (~fifo_full_wire)&wr;
@@ -12,7 +12,7 @@ module write_pointer (
 		
 		if (~rst_n)
 			wptr <= 5'd0;
-		else if ((~fifo_full_wire) & wr)
+		else if (fifo_we)
 			wptr <= wptr + 5'd1;
 			else
 				wptr <= wptr;		

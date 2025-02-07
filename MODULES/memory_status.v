@@ -17,7 +17,7 @@ module memory_status(
 
 	// savoir si la FIFO est vide ou pleine 
 	always @(*) begin
-		fifo_empty_wire 	= (~msb_ptr) & ptr_eq;
+		fifo_empty_wire = (~msb_ptr) & ptr_eq;
 		fifo_full_wire 	= msb_ptr & ptr_eq;
 		fifo_threshold_wire = ptr_diff[4] || ptr_diff[3];	
 	end
